@@ -1,0 +1,22 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database
+*.db
+*.sqlite3
+
+# Face images and trained models
+data/faces/
+data/models/
+data/attendance.db
+
+# Secrets and environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
